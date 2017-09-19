@@ -1,4 +1,37 @@
 body {
-	background-image: white.jpg;
+	background-image: url("white.jpg");
 	background-repeat: repeat;
+}
+
+header {
+	color: #3A4142;
+	font-size: 40px;
+	font-family: Broadway, Times New Roman, serif;
+	height: 60px;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #BBBCB9;
+	font-family: arial, sans-serif;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #3A4142;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #919394;
 }
