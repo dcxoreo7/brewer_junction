@@ -1,0 +1,17 @@
+.below_menu_container {
+    	padding-top: 10px;
+	}
+
+section {
+	margin: 10px;
+	max-width: 800px;
+}
+
+footer {
+	margin: 10px;
+}
+
+h1 {
+	height: 60px;
+	padding: 10px;
+}
