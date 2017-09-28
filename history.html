@@ -8,50 +8,45 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style_sheet.css">
 	</head>
 <body>
-<header>
+<header class="menu_container">
 <h1><strong> History </strong></h1>
 </header>
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">Home Page</a>
-			</li>
-			
-			<li>
-				<a href="about.html">About</a>
-			</li>
+	 <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
 
-			<li>
-				<a href="news.html">News Page</a>
-			</li>
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-			<li>
-				<a href="sports.html">Sports Page</a>
-			</li>
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">Bootstrap</a>
+        </div>
 
-			<li>
-				<a href="tour_guide.html">Tour Guide Page</a>
-			</li>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home Page</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News Page</a></li>
+            <li><a href="sports.html">Sports Page</a>
+            <li><a href="tour_guide.html">Tour Guide Page</a>
+            <li><a href="history.html">History Page</a>
+            <li><a href="login.html">Login</a>
+            <li><a href="sign_up.html">Sign Up</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-			<li>
-				<a href="history.html">History Page</a>
-			</li>
-
-			<li>
-				<a href="login.html">Login</a>
-			</li>
-
-			<li>
-				<a href="sign_up.html">Sign Up Page</a>
-			</li>	
-		</ul>
-	</nav>
-
-
-	<p>Brewer Junction was founded by settlers in 1756. We got our name in 1919 during the probihition. Brewer Junction is very well known in the area for our many brewerys. At one point in our history we had five in our small town and we are now currently down to three. Brewer Junction has had many awards.</p>
-	<p>We still have houses and buildings in our town square that were built in 1756. We have great architecture all throughout town everywhere you turn.</p>
+	<p class="menu_container">Brewer Junction was founded by settlers in 1756. We got our name in 1919 during the probihition. Brewer Junction is very well known in the area for our many brewerys. At one point in our history we had five in our small town and we are now currently down to three. Brewer Junction has had many awards. </p>
+	<p class="menu_container">We still have houses and buildings in our town square that were built in 1756. We have great architecture all throughout town everywhere you turn.</p>
 	<img src="1776.png" alt="1776">
 	<footer> Copyright: Jessica Koch </footer>
 </body>
