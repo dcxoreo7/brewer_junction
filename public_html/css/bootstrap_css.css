@@ -14,4 +14,9 @@ footer {
 h1 {
 	height: 60px;
 	padding: 10px;
+	text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
 }
