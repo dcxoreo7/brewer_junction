@@ -12,6 +12,12 @@ footer {
 }
 
 h1 {
+	position: relative;
 	height: 60px;
 	padding: 10px;
+}
+p {
+	position: relative;
+	left: 10px;
+	top:20px;
 }
