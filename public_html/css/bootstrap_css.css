@@ -14,10 +14,17 @@ footer {
 h1 {
 	position: relative;
 	height: 60px;
-	padding: 10px;
+	padding: 5px;
 }
 p {
 	position: relative;
 	left: 10px;
 	top:20px;
+=======
+	text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 30px;
 }
