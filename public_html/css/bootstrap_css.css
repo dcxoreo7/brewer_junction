@@ -1,5 +1,6 @@
 .below_menu_container {
     	padding-top: 50px;
+
 	}
 
 section {
@@ -26,5 +27,14 @@ p {
 
 h3 {
     font-weight: bold;
+<<<<<<< HEAD
     padding: 30px;
 }
+=======
+}
+
+body{
+    background-image: url("white.jpg");
+    background-repeat: repeat;
+  }
+>>>>>>> 1703c19edc9cc465876c6f57c0812bbb113da12c
