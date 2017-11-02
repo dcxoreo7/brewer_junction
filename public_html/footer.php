@@ -1,0 +1,1 @@
+<footer class="container col-xs-12">&copy;2017 by Jessica Koch</footer>

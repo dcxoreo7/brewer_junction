@@ -1,5 +1,6 @@
 .below_menu_container {
     	padding-top: 50px;
+
 	}
 
 section {
@@ -12,26 +13,16 @@ footer {
 }
 
 h1 {
-	position: relative;
 	height: 60px;
-	padding: 5px;
-}
-p {
-	position: relative;
-	left: 10px;
-	top:20px;
+	padding: 10px;
 	text-decoration: underline;
 }
 
 h3 {
     font-weight: bold;
-    
-}
-
 }
 
 body{
     background-image: url("white.jpg");
     background-repeat: repeat;
   }
-
