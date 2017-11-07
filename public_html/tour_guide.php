@@ -20,7 +20,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Brewer Junction</a>
+        <a class="navbar-brand" href="index.php">Brewer Junction</a>
       </div>
 
       <div id="navbar" class="collapse navbar-collapse">
